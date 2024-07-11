@@ -1,0 +1,112 @@
+/* Past Work Style Sheet */
+
+/*enables a set padding at the top of my document  to account for the header*/
+html {
+    scroll-padding-top: 290px;
+}
+
+/* sets the base color font and margins*/
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+  }
+
+/*creates the settings for my moving header*/
+header {
+    background-color: rgb(226, 226, 226);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+/*make all the header have no margins and some padding*/
+h1,h2,h3 {
+    font-weight: bolder;
+    padding-left: 5px;
+    margin: 0;  
+}
+
+/*changes h1 font size*/
+h1 {
+    font-size: 50px;
+}
+
+/*changes h3 font size and adds space to the top and bottom of each header*/
+h2 {
+    font-size: 35px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+/*changes h2 font size*/
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    padding-left: 5px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+a {
+    padding-left: 5px;
+}
+  
+/*adds margin to p and changes font size for all p elements*/
+p {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-inline-end: 10px;
+}
+
+/*changes font to italic inside of spans for dates*/
+span {
+    font-weight: 650;
+    font-style: italic;
+    font-size: 23px;
+}
+
+/*aligns the text to the center and sets the width*/
+table {
+    text-align: center;
+    width: 1200px;
+}
+
+/*IMAGE SIZING*/
+
+img {
+    padding-top: 10px;
+    max-width: 80%;
+    max-height: 1000px;
+}
+
+/* main Contents CSS */
+
+/*set the position of the body of the website*/
+.CenteralContainer {
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+}
+
+.SubContainer {
+    padding: 10px;
+}
+
+.breakline {
+    border: none;
+    height: 5px;
+    background-color: #FF5733;
+    margin: 0px;
+}
+
+.newwindowlink {
+    color: #FF5733;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+}
